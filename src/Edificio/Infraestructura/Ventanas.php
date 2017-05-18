@@ -1,14 +1,15 @@
 <?php
-namespace Edificio\Infraestructura;
+namespace Infraestructura;
 
-/**
-* 
-*/
+
 class Ventanas
 {
-	
-	public function __construct()
-	{
-		
-	}
+protected $PisoDeVentana;
+
+public function LimpiarVentana($PisoDeVentana)
+{
+$this->PisoDeVentana=$PisoDeVentana;
+echo "La ventana del piso: ".$this->PisoDeVentana." esta limpia<br>";	
 }
+}
+

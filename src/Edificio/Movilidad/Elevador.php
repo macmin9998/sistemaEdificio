@@ -1,5 +1,5 @@
 <?php
-namespace Edificio\Movilidad;
+namespace Movilidad;
 
 class Elevador
 {
